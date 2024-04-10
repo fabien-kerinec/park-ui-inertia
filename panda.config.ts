@@ -15,5 +15,5 @@ export default defineConfig({
   include: ['./resources/**/*.{js,jsx,ts,tsx}'],
   exclude: [],
   jsxFramework: 'react',
-  outdir: './resources/styled-s',
+  outdir: './resources/styled-system',
 })

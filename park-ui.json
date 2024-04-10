@@ -4,7 +4,7 @@
   "jsFramework": "react",
   "importAliases": {
     "components": "~/components/ui",
-    "utils": "~/lib"
+    "utils": "~/components/lib"
   },
   "useReactServerComponents": true
 }

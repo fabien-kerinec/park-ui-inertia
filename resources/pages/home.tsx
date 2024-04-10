@@ -14,7 +14,7 @@ export default function Home(props: { version: number }) {
           <a href="https://docs.adonisjs.com/guides/inertia">AdonisJS documentation</a>.
         </span>
       </div>
-      <Button variant={'outline'} width="full">
+      <Button variant={'solid'} width="full">
         test
       </Button>
     </>
