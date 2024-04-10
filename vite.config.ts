@@ -8,9 +8,9 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 export default defineConfig({
   plugins: [
     tsconfigPaths(),
-    inertia({ ssr: { enabled: true, entrypoint: 'inertia/app/ssr.tsx' } }),
+    inertia({ ssr: { enabled: true, entrypoint: 'resources/ssr.tsx' } }),
     react(),
-    adonisjs({ entrypoints: ['inertia/app/app.tsx'], reload: ['resources/views/**/*.edge'] }),
+    adonisjs({ entrypoints: ['resources/app.tsx'], reload: ['resources/views/**/*.edge'] }),
   ],
   /**
    * Define aliases for importing modules from
